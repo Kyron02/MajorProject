@@ -8,10 +8,6 @@ from sklearn.utils import shuffle
 from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import classification_report
 import numpy as np
-#import seaborn as sns
-import plotly.graph_objs as go
-#import plotly.plotly as py
-import plotly
 import joblib
 
 import warnings
