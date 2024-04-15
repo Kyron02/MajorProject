@@ -13,7 +13,7 @@ def fut_cal(user_date,end_date):
 
 def drive(filename,user_date):
 	#filename='godavari'
-	data=pd.read_excel('C:/Users/Harsh/Desktop/Code/sourceCode/data/'+filename+'.xlsx')
+	data=pd.read_excel('data/'+filename+'.xlsx')
 
 	user_date=pd.to_datetime(user_date)
 	last_date=data['Date'].iloc[len(data)-1]

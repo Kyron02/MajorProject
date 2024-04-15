@@ -8,7 +8,7 @@ from sklearn.utils import shuffle
 from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import classification_report
 import numpy as np
-import seaborn as sns
+#import seaborn as sns
 import plotly.graph_objs as go
 #import plotly.plotly as py
 import plotly
@@ -17,7 +17,7 @@ warnings.filterwarnings("ignore")
 
 
 def alerting():
-    data1=pd.read_csv('C:/Users/Harsh/Desktop/Code/sourceCode/data/forecast/forecasted_level_of_rivers.csv')
+    data1=pd.read_csv('data/forecast/forecasted_level_of_rivers.csv')
     res=[]
     for i in range(data1.shape[1]):
         for j in range(data1.shape[0]):

@@ -8,7 +8,7 @@ from sklearn.utils import shuffle
 from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import classification_report
 import numpy as np
-import seaborn as sns
+#import seaborn as sns
 import plotly.graph_objs as go
 #import plotly.plotly as py
 import plotly
@@ -21,7 +21,7 @@ warnings.filterwarnings("ignore")
 #validating-0 or 1 (0-tetsing ,1= future prediction)
 def flood_classifier(filename,fd,validating=0):
 
-	data1=pd.read_excel('C:/Users/Harsh/Desktop/Code/sourceCode/data/'+filename+'.xlsx')
+	data1=pd.read_excel('data/'+filename+'.xlsx')
 
 	# In[4]:
 	data1.shape
@@ -76,7 +76,7 @@ def flood_classifier(filename,fd,validating=0):
 	plt.plot(yearly,'--')
 
 	#plt.plot(yearly,style=[':', '--', '-'],title='Year wise Trends')
-	plt.savefig('C:/Users/Harsh/Desktop/Code/sourceCode/static/img/flood.png')
+	plt.savefig('static/img/flood.png')
 	#--------------------------------
 
 

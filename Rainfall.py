@@ -1,11 +1,10 @@
 import numpy as np 
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
+#import seaborn as sns
 import keras
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
-tf.disable_v2_behavior()
 #import mpld3
 
 # ## Types of graphs
@@ -119,7 +118,7 @@ def rainfall(year,region):
 
         #plt.show()
         #mpld3.save_html(fig,'static/img/rainfall.html')
-        plt.savefig('C:/Users/Harsh/Desktop/Code/sourceCode/static/img/rainfall.png')
+        plt.savefig('static/img/rainfall.png')
 
 
     # In[18]:
